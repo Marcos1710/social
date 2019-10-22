@@ -32,7 +32,7 @@ const LoginOrProfileRouter = createSwitchNavigator({
   Profile: Profile,
   Auth: AuthOrRouter
   }, {
-    initialRouteName: 'Profile'
+    initialRouteName: 'Auth'
 })
 
 const myTabNavigator = createBottomTabNavigator(
